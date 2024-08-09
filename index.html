@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter Bailey</title>
+    <link <link rel="stylesheet" href="styles.css"> 
+    
+    <script>
+        function toggleDropdown() {
+            var dropdownContent = document.getElementById("paintingsDropdown");
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        }
+
+        function togglePhotosDropdown() {
+            var dropdownContent = document.getElementById("photosDropdown");
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1> <img class=img-excavator src="img/site header.png" alt="an excavator" width="900"></h1> 
+        <nav>
+            <ul class="no-bullets">
+               <li><a href="bio.html" class="bio-item no-underline">Bio</a></li>
+                <li class="dropdown" onclick="toggleDropdown()">
+                    Paintings
+                    <ul class="dropdown-content no-bullets" id="paintingsDropdown">
+                        <li><a href="moviesofmydreams.html#gallery-start" class="no-underline">Movies of My Dreams</a></li>
+                        <li><a href="pray4america.html#gallery-start" class="no-underline">Pray 4 America</a></li>
+                        <li><a href="shieldyoureyes.html#gallery-start" class="no-underline">Shield Your Eyes</a></li>
+
+</li>
+                    </ul>
+                </li>
+                <li class="dropdown" onclick="togglePhotosDropdown()">
+                    Photos
+                    <ul class="dropdown-content no-bullets" id="photosDropdown">
+                        <li><a href="hastheworldchanged.html#gallery-start" class="no-underline">Has The World Changed or Have I Changed</a></li>
+                        <li><a href="rollingdownhill.html#gallery-start" class="no-underline">Rolling Downhill Like A Snowball Headed For Hell</a></li>
+                        <li><a href="strangethings.html#gallery-start" class="no-underline">Strange Things Keep Happening All The Time</a></li>
+                        <li><a href="rigs.html#gallery-start" class="no-underline">Rigs</a></li>
+                        <li><a href="picadillypalare.html#gallery-start" class="no-underline">Picadilly Palare</a></li>
+                        <li><a href="smile.html#gallery-start" class="no-underline">Smile</a></li>
+                    </ul>
+                </li>
+                <li><a href="crowdsourcing.html" class="nav-link">Crowdsourcing</a></li>
+
+            </ul>
+        </nav>
+    </header>
+   
+    <footer>
+        <p>&copy; 2024 Hunter Bailey</p>
+    </footer>
+</body>
+</html>

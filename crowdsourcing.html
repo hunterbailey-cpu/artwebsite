@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crowdsourcing</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <h2>About once a week, one of my friends will send me a photo with a message like "saw this and thought you'd like to paint it!". It happens so consistently that I decided to compile them. </h2>
+    <h2>Here are some examples.</h2>
+    <div class="gallery">
+        <img class="crowdsourcing-image" src="crowdsourcing/birdhead.jpg" alt="a birdhead" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/bothside.jpg" alt="a convenience store" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/burgerstop.jpg" alt="a burger stop" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/graffboat.jpg" alt="a graffiti-covered boat" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/junkboat.jpg" alt="a junk boat" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/manincamera.jpg" alt="a man with a camera" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/meat.jpg" alt="meat on display" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/psychic.jpg" alt="a psychic's sign" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/ray.jpg" alt="a person named Ray" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/riley.jpg" alt="a person named Riley" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/riley2.jpg" alt="another photo of Riley" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/shingleRV.jpg" alt="an RV with shingles" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/shopwindow.jpg" alt="a shop window" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/trashstreet.jpg" alt="a street with trash" onclick="enlargeImage(this)">
+        <img class="crowdsourcing-image" src="crowdsourcing/guy.jpg" alt="back of guy fieri's head with sunglasses on" onclick="enlargeImage(this)">
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
