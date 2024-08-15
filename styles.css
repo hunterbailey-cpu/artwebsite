@@ -331,3 +331,13 @@ body {
   object-fit: cover;
   border-radius: 0px;
 }
+
+.img-excavator {
+    width: 900px; /* Adjust this to your desired width */
+}
+
+@media only screen and (max-width: 768px) {
+    .img-excavator {
+        width: 90%; /* Adjust this to your desired mobile width */
+    }
+}
