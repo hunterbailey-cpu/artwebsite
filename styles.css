@@ -341,3 +341,9 @@ body {
         width: 90%; /* Adjust this to your desired mobile width */
     }
 }
+
+@media (max-width: 600px) {
+    .bio-page h1 {
+        font-size: 20px;
+    }
+}
