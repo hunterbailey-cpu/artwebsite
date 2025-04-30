@@ -347,3 +347,26 @@ body {
         font-size: 20px;
     }
 }
+
+body {
+  font-size: 14px; /* overall smaller text */
+  font-family: sans-serif; /* optional: cleaner font */
+}
+
+.bio-text {
+  font-size: 30px; /* specifically for your bio paragraph */
+  line-height: 1.5; /* optional: improves readability */
+}
+
+.no-space {
+  margin: 0;
+}
+
+.cv-link {
+  margin-top: 20px; /* space above the CV link */
+}
+
+.instagram-link {
+  margin-top: 10px; /* space between CV and Instagram links */
+}
+
