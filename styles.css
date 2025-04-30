@@ -142,7 +142,7 @@ body {
 }
 
 
-.shield-your-eyes img {
+.haystacks img {
   width: 600px;
   object-fit: cover;
   border-radius: 10px;
@@ -150,13 +150,13 @@ body {
   display:block;
 }
 
-.shield-your-eyes {
+.haystacks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.shield-your-eyes img {
+.haystacks img {
   width: calc(50% - 20px); /* Adjust width as needed, including margin */
   margin: 10px; /* Add margin between images */
   object-fit: cover;
