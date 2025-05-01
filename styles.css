@@ -370,3 +370,24 @@ body {
   margin-top: 10px; /* space between CV and Instagram links */
 }
 
+.shield-your-eyes img {
+  width: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin:auto;
+  display:block;
+}
+
+.shield-your-eyes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.shield-your-eyes img {
+  width: calc(50% - 20px); /* Adjust width as needed, including margin */
+  margin: 10px; /* Add margin between images */
+  object-fit: cover;
+  border-radius: 0px;
+}
+
