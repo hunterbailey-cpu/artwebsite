@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shield Your Eyes</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+  <div class="shield-your-eyes">
+    
+    <img src="BDAC paintings/hope.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+    <img src="BDAC paintings/saying i dunno.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+    <img src="BDAC paintings/Hunter Bailey_Driving West Toward The Sea.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+    <img src="BDAC paintings/Hunter Bailey_Untitled as of 31 January 2025.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+    
+    <img src="BDAC paintings/ice.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+   
+    <img src="BDAC paintings/learn.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+    <img src="BDAC paintings/Angels of Memory.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+    <img src="BDAC paintings/nothing to me.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+
+     <img src="BDAC instal/DSC05187.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+     <img src="BDAC instal/DSC05208.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+     <img src="BDAC instal/DSC05219.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+     <img src="BDAC instal/DSC05221.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+     <img src="BDAC instal/DSC05228.jpg" alt="a photo of a window" onclick="enlargeImage(this)">
+
+     <h2>I am fascinated by decaying manmade objects. There is a surface-level reason for this: an interest in finding beauty in the mundane or transfiguring the commonplace. But I’ve come to realize that there is another reason that I am drawn to this subject matter. These objects and their falling apart confirm some deep, hidden conviction that our world is falling apart. Our system, our way of being, is antithetical to the future. It cannot persist.</h2>
+
+     <h2>I think that many people, especially people my age and younger, secretly hold this nihilistic belief. It is something that is commonly joked about, alluded to, and discussed both online and off. While this cynicism is seductive, it is only one layer down into the significance I feel in these objects. I realized that If decay reflects the failures of what we’ve built, it could also hint at our capacity to create something new.</h2>
+
+     <h2>Within this disintegration I have discovered an even more deeply held and more secret optimism. All of these machines were built by human beings. We made them. Just like we built our current system. And although what we have built seems to be failing us now, it does not need to stay this way. We make our world, and we can just as easily create a new, better one.</h2>
+   
+  </div>
+
+<div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
