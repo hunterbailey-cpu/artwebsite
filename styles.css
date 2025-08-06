@@ -391,3 +391,24 @@ body {
   border-radius: 0px;
 }
 
+.current-work img {
+  width: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin:auto;
+  display:block;
+}
+
+.current-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.current-work img {
+  width: calc(50% - 20px); /* Adjust width as needed, including margin */
+  margin: 10px; /* Add margin between images */
+  object-fit: cover;
+  border-radius: 0px;
+}
+
