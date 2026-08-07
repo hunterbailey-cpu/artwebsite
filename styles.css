@@ -412,3 +412,15 @@ body {
   border-radius: 0px;
 }
 
+.painting-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.painting-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
