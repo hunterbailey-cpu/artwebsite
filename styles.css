@@ -399,13 +399,13 @@ body {
   display:block;
 }
 
-.current-work {
+.idontknowgod {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.current-work img {
+.idontknowgod img {
   width: calc(50% - 20px); /* Adjust width as needed, including margin */
   margin: 10px; /* Add margin between images */
   object-fit: cover;
